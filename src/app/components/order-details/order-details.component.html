@@ -1,0 +1,21 @@
+<section
+  class="section register min-vh-100 d-flex flex-column align-items-center justify-content-center py-4"
+>
+  <table style="width: 50%; border: 1px solid black">
+    <thead>
+      <tr>
+        <td>orderId</td>
+        <td>orderName</td>
+        <td>orderCode</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input [(ngModel)]="order.id" /></td>
+        <td><input [(ngModel)]="order.name" /></td>
+        <td><input [(ngModel)]="order.orderCode" /></td>
+      </tr>
+    </tbody>
+  </table>
+  <button (click)="save()">save</button>
+</section>

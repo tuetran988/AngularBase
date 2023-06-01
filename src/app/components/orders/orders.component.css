@@ -1,0 +1,14 @@
+
+
+.list-order{
+    margin-top:5px;
+    padding-left: 0px;
+}
+.list-item-order {
+    padding: 10px ; 
+    list-style:none ;
+    background-color: #eee;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 70%;
+}
